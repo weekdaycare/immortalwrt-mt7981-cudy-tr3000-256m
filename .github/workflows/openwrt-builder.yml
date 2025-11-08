@@ -49,12 +49,11 @@ jobs:
             ${{ runner.os }}-ccache-
 
       - name: ⚙️ Setup downloads and build cache
-        id: cache-dl-build
         uses: actions/cache@v3
         with:
           path: |
-            /workdir/openwrt/dl
-            /workdir/openwrt/build_dir
+            ${{ github.workspace }}/openwrt/dl
+            ${{ github.workspace }}/openwrt/build_dir
           key: ${{ runner.os }}-openwrt-${{ env.REPO_BRANCH }}-${{ hashFiles('**/.config') }}
           restore-keys: |
             ${{ runner.os }}-openwrt-${{ env.REPO_BRANCH }}-
