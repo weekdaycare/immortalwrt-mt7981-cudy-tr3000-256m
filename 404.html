@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>404 | Immortalwrt Firmware</title>
+    <meta name="description" content="Not Found">
+    <meta name="generator" content="VitePress v2.0.0-alpha.13">
+    <link rel="preload stylesheet" href="/assets/style.D1o-7oQV.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.Br7kgnkg.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <script>async function updateDownloadLinksAndTimesByIndex(){const d="https://api.github.com/repos/weekdaycare/immortalwrt-mt7981-cudy-tr3000/releases";try{const t=await fetch(d);if(!t.ok)throw new Error("GitHub API error: "+t.status);const u=await t.json(),m=["256M","128M","128M_Ubootmod"],i={"256M":null,"128M":null,"128M_Ubootmod":null};for(const o of u){const s=o.name;for(const e of m)if(s.startsWith(e)){const r=i[e]?.timestamp||null,n=s.match(/\d{8}-\d{4}/);if(!n)continue;const a=n[0];(!r||a>r)&&(i[e]={release:o,timestamp:a})}}const l=Array.from(document.querySelectorAll(".item.grid-3 > a")),f=["time-256M","time-128M","time-128M-ubootmod"];m.forEach((o,s)=>{const e=i[o];if(e&&l[s]){const r=l[s],n=document.getElementById(f[s]),a=e.release.assets.find(c=>c.browser_download_url.includes("sysupgrade.bin"));if(a?r.href=a.browser_download_url:r.href=`https://github.com/weekdaycare/immortalwrt-mt7981-cudy-tr3000/releases/download/${e.release.name}/immortalwrt-mediatek-filogic-cudy_tr3000-v1${o==="256M"?"-256mb":o==="128M_Ubootmod"?"-ubootmod":""}-squashfs-sysupgrade.bin`,n){const c=e.timestamp.replace(/^(\d{4})(\d{2})(\d{2})-(\d{2})(\d{2})$/,(M,b,p,h,w,y)=>`${b}\u5E74${p}\u6708${h}\u65E5 ${w}:${y}`);n.textContent=c}}})}catch(t){console.error("Failed to update links:",t)}}function setupLinkUpdater(){const d=()=>{document.querySelector(".item.grid-3 > a")&&updateDownloadLinksAndTimesByIndex()};d(),new MutationObserver(d).observe(document.body,{childList:!0,subtree:!0})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",setupLinkUpdater):setupLinkUpdater();</script>
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"index.md\":\"CRYihmOx\",\"install.md\":\"b5GlR3gt\",\"question.md\":\"BaXQEVGQ\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Immortalwrt Firmware\",\"description\":\"A site for cudy tr3000 128M/256M immortalwrt firmware download\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false,\"additionalConfig\":{}}");</script>
+    
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as r,ah as l}from"./chunks/framework.DtkdsvJk.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"install.md","filePath":"install.md"}'),o={name:"install.md"};function c(d,e,i,n,s,p){return r(),t("div",null,[...e[0]||(e[0]=[l("",12)])])}const m=a(o,[["render",c]]);export{_ as __pageData,m as default};
